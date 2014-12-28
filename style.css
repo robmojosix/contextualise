@@ -1,0 +1,14 @@
+.contextualiseJS.live {
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+    padding: 0 3px;
+    background-color: #F0EDCE;
+    cursor: default;
+}
+
+.contextualiseJS.live .context-panel {
+	font-family: helvetica, sans-serif;
+	font-size: 12px;
+}
