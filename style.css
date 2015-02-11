@@ -15,6 +15,7 @@
   position: fixed;
   top: 0;
   left: 0;
+  white-space: wrap;
   visibility: hidden;
   font-family: Officina, Arial, Verdana, sans-serif;
   -webkit-box-sizing: border-box;
@@ -91,7 +92,7 @@
   border-top: 1px solid;
   font-size: 25px;
   padding-top: 10px;
-  word-break: break-all;
+  word-break: normal;
 }
 
 .contextualiseJS.live .cntx-widget .cntx-labels-container .cntx-label-label-0,
@@ -127,7 +128,7 @@
   border-top: 1px solid;
   font-size: 25px;
   padding-top: 6px;
-  word-break: break-all;
+  word-break: normal;
 }
 
 .contextualiseJS.live .cntx-widget.cntx-chart-circles .cntx-labels-container .cntx-label-label-0,
@@ -162,7 +163,7 @@
 .contextualiseJS.live .cntx-widget.cntx-chart-bars .cntx-container .cntx-label-container {
 	display: inline-block;
 	width: 38%;
-	word-break: break-all;
+	word-break: normal;
 	margin-right: 5%;
 }
 
@@ -197,7 +198,7 @@
   border-top: 1px solid;
   font-size: 25px;
   padding-top: 10px;
-  word-break: break-all;
+  word-break: normal;
 }
 
 .contextualiseJS.live .cntx-widget.cntx-chart-bar .cntx-labels-container .cntx-label-label-0,
@@ -257,7 +258,7 @@
 	color: #CFFF45;
 	background-color: rgba(83, 83, 90, 0.5);
 	padding: 0px 5px 2px 5px;
-	font-family: "Officina", "Arial", sans-serif;
+	font-family: 'Officina', 'Arial', sans-serif;
 	font-size: 15px;
 	position: relative;
 	left: -50%;
