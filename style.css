@@ -6,7 +6,7 @@
   -khtml-border-radius: 5px;
   border-radius: 5px;
   padding: 0 3px;
-  background-color: #E5FF9B;
+  background-color: #FCD2C0;
   cursor: default;
 }
 
@@ -59,9 +59,9 @@
 }
 
 .contextualiseJS.live .cntx-widget .cntx-colour-2 {
-  color: #CFFF45;
-  fill: #CFFF45;
-  border-color: #CFFF45;
+  color: #F05A3F;
+  fill: #F05A3F;
+  border-color: #F05A3F;
 }
 
 .contextualiseJS.live .cntx-widget .cntx-title {
@@ -255,7 +255,7 @@
 }
 
 .cntxLabel {
-	color: #CFFF45;
+	color: #F05A3F;
 	background-color: rgba(83, 83, 90, 0.5);
 	padding: 0px 5px 2px 5px;
 	font-family: 'Officina', 'Arial', sans-serif;
