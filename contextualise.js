@@ -106,10 +106,10 @@ if (cntx.checkSupport()) {
 
       // toggle view
 
-      // if(attrs.show === 'out' || attrs.show === 'click' && cntx.checkAttr(attrs.elm.attr('data-live'))) {
-      //   cntx.removeCntx(attrs);
-      //   return;
-      // }
+      if(attrs.show === 'out' || attrs.show === 'click' && cntx.checkAttr(attrs.elm.attr('data-live'))) {
+        cntx.removeCntx(attrs);
+        return;
+      }
       // if displaying go through splitter
       attrs.elm.attr('data-live', 'live');
       switch(attrs.type) {
